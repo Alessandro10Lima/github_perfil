@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <input type="text" onBlur={(e) => setNumeroUsuario(e.target.value)} />
+    <input className="entry" placeholder="Digite o nome de usuário" type="text" onBlur={(e) => setNumeroUsuario(e.target.value)} />
 
     {nomeUsuario.length > 4 && (
       <>

@@ -15,3 +15,10 @@
     --corPrincipal: #f9ca24;
     --corSecundaria: #111;
 }
+
+#root .entry{
+    display: block;
+    width: 220px;
+    margin: 8px;
+    padding: 2px;
+}
